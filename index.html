@@ -59,7 +59,8 @@
       font-size: 25px;
     }
 
-    .project {
+    .project,
+    .contact-box {
       background: #1b1e2b;
       padding: 30px;
       border-radius: 14px;
@@ -82,8 +83,9 @@
       display: inline-block;
       padding: 12px 20px;
       margin-top: 10px;
+      margin-right: 8px;
       background: #7c5cff;
-      color: white;
+      color: #ffffff;
       text-decoration: none;
       border-radius: 8px;
       font-weight: bold;
@@ -93,18 +95,18 @@
       opacity: 0.9;
     }
 
+    .secondary-button {
+      background: #34384b;
+    }
+
     a {
       color: #a99aff;
     }
 
-    .contact-box {
-      background: #1b1e2b;
-      padding: 30px;
-      border-radius: 14px;
-    }
-
-    .contact-box p {
-      margin: 10px 0;
+    .note {
+      color: #b9bbca;
+      font-size: 14px;
+      margin-top: 20px;
     }
 
     footer {
@@ -115,12 +117,18 @@
     }
 
     @media (max-width: 600px) {
+      header {
+        padding: 65px 20px;
+      }
+
       header h1 {
         font-size: 34px;
       }
 
-      header {
-        padding: 65px 20px;
+      .button {
+        display: block;
+        margin-right: 0;
+        text-align: center;
       }
     }
   </style>
@@ -165,33 +173,54 @@
       <strong>Package Contents</strong>
 
       <ul>
-        <li>10 music tracks</li>
-        <li>10 WAV audio files</li>
-        <li>10 MP3 audio files</li>
-        <li>20 audio files in total</li>
+        <li>9 music tracks</li>
+        <li>9 WAV audio files</li>
+        <li>9 MP3 audio files</li>
+        <li>18 audio files in total</li>
         <li>WAV and MP3 versions are provided for each track</li>
         <li>Designed for use in games and interactive projects</li>
       </ul>
     </div>
 
     <p>
-      Each of the 10 tracks is provided in both WAV and MP3
+      Each of the 9 tracks is provided in both WAV and MP3
       formats, allowing developers to choose the format
       appropriate for their project.
     </p>
 
     <p>
-      Audio previews of the music are available on SoundCloud.
+      A short preview mix featuring excerpts from all 9 tracks
+      is available on SoundCloud.
     </p>
+
+    <!--
+      IMPORTANT:
+      After uploading the 90-second preview to SoundCloud,
+      replace PREVIEW_LINK_HERE below with the actual track URL.
+    -->
 
     <a
       class="button"
+      href="PREVIEW_LINK_HERE"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      Listen to 90-Second Preview
+    </a>
+
+    <a
+      class="button secondary-button"
       href="https://soundcloud.com/ddd4756"
       target="_blank"
       rel="noopener noreferrer"
     >
-      Listen on SoundCloud
+      COYTORY_MUSIC on SoundCloud
     </a>
+
+    <p class="note">
+      The preview contains short excerpts from the full tracks.
+      Full-quality audio files are included in the complete asset package.
+    </p>
 
   </div>
 </section>
@@ -201,6 +230,7 @@
   <h2>Services & Focus</h2>
 
   <div class="project">
+
     <p>
       COYTORY_MUSIC focuses on game-ready audio assets including:
     </p>
@@ -212,6 +242,7 @@
       <li>Electronic game music</li>
       <li>Music assets for game development</li>
     </ul>
+
   </div>
 </section>
 
@@ -241,7 +272,7 @@
         target="_blank"
         rel="noopener noreferrer"
       >
-        COYTORY_MUSIC Audio Portfolio
+        COYTORY_MUSIC
       </a>
     </p>
 
